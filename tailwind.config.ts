@@ -24,7 +24,12 @@ const config: Config = {
       md: "768px",
       lg: "1200px",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        "custom-shadow":
+          "0px 0px 10px 0px rgba(140, 69, 255, 0.70) inset, 0px 0px 12px 0px #8C45FF",
+      },
+    },
   },
   plugins: [],
 };
