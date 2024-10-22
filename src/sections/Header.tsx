@@ -1,6 +1,7 @@
 import LogoIcon from "@/assets/logo.svg";
 import MenuIcon from "@/assets/icon-menu.svg";
 import Button from "@/components/Button";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -13,18 +14,30 @@ export const Header = () => {
           </div>
 
           <nav className="hidden md:flex gap-8 text-sm">
-            <a href="#" className="text-white/70 hover:text-white transition">
+            <Link
+              href="#"
+              className="text-white/70 hover:text-white transition"
+            >
               Features
-            </a>
-            <a href="#" className="text-white/70 hover:text-white transition">
+            </Link>
+            <Link
+              href="#"
+              className="text-white/70 hover:text-white transition"
+            >
               Developers
-            </a>
-            <a href="#" className="text-white/70 hover:text-white transition">
+            </Link>
+            <Link
+              href="#"
+              className="text-white/70 hover:text-white transition"
+            >
               Pricing
-            </a>
-            <a href="#" className="text-white/70 hover:text-white transition">
+            </Link>
+            <Link
+              href="#"
+              className="text-white/70 hover:text-white transition"
+            >
               Changelog
-            </a>
+            </Link>
           </nav>
 
           <div className="flex justify-between gap-4 items-center">
