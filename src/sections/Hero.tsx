@@ -3,7 +3,7 @@
 import Button from "@/components/Button";
 import StarsBg from "@/assets/stars.png";
 import { motion } from "framer-motion";
-import { useScroll, useMotionValueEvent, useTransform } from "framer-motion";
+import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
 export const Hero = () => {
