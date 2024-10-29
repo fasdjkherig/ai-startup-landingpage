@@ -2,12 +2,11 @@
 
 import Button from "@/components/Button";
 import StarsBg from "@/assets/stars.png";
-import { motion } from "framer-motion";
-import { useScroll, useTransform } from "framer-motion";
+import { useScroll, useTransform, motion } from "framer-motion";
 import { useRef } from "react";
 
 export const Hero = () => {
-  const sectionRef = useRef(null);
+  const sectionRef = useRef<HTMLElement>(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start end", "end start"],
@@ -20,6 +19,7 @@ export const Hero = () => {
   );
   return (
     <motion.section
+      ref={sectionRef}
       animate={{ backgroundPositionX: StarsBg.width }}
       transition={{ repeat: Infinity, duration: 120, ease: "linear" }}
       className="h-[492px] md:h-[800px] flex items-center  overflow-hidden relative [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]"
