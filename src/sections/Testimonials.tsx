@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     text: "“This product has completely transformed how I manage my projects and deadlines”",
-    name: "Sophia Perez",
+    name: "Nophia Perez",
     title: "Director @ Quantum",
     avatarImg: avatar1,
   },
