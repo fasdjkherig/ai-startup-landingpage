@@ -37,15 +37,14 @@ export const LogoTicker = () => {
                 quantumLogo,
                 pulseLogo,
                 echoLogo,
-              ].map((logo) => (
+              ].map((logo, index) => (
                 <Image
                   src={logo.src}
-                  key={logo.src}
+                  key={`${logo}-${index}`}
                   className="h-6 w-auto" // Tailwind classes to adjust styling
-                  alt=""
-                  layout="intrinsic" // Maintain the original aspect ratio
-                  width={logo.width} // Use the intrinsic width of your image
-                  height={logo.height} // Use the intrinsic height of your image
+                  alt="company logo image"
+                  width={logo.width}
+                  height={logo.height}
                 />
               ))}
             </motion.div>

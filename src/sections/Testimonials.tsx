@@ -52,9 +52,9 @@ export const Testimonials = () => {
             transition={{ repeat: Infinity, duration: 30, ease: "linear" }}
             className="flex gap-5 flex-none pr-5 -translate-x-1/2"
           >
-            {[...testimonials, ...testimonials].map((testimonial) => (
+            {[...testimonials, ...testimonials].map((testimonial, index) => (
               <div
-                key={testimonial.name}
+                key={`${testimonial.name}-${index}`}
                 className="border border-white/15 p-6 md:p-10 rounded-xl bg-[linear-gradient(243deg,rgba(140,69,255,0.30)_0%,#000_100%)] max-w-xs md:max-w-md flex-none"
               >
                 <p className="text-white text-lg md:text-2xl tracking-tight ">
