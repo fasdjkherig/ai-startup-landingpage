@@ -1,3 +1,5 @@
+<h1 align="center">A Frontend Fintech Bank Application</h1>
+
 <div align="center">
   <br />
     <a href="https://youtu.be/PuOVqP_cjkE?feature=shared" target="_blank">
@@ -13,20 +15,18 @@
 
   </div>
 
-  <h3 align="center">A Frontend Fintech Bank Application</h3>
-
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
 
-1. 💡 [About Project](#about)
+1. 🌟 [About Project](#about)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
 4. 🚀 [Quick Start](#quick-start)
 5. 🔗 [Project demo](#project-demo)
 <!-- 6. 🕸️ [Snippets](#snippets) -->
 
-## <a name="about">💡 About Project</a>
+## <a name="about">🌟 About Project</a>
 
 Horizon is a banking application that brings all your bank accounts together in one place. It lets you manage your finances easily and transfer money to other users on the platform.
 

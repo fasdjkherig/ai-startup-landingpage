@@ -7,6 +7,7 @@ import quantumLogo from "@/assets/logo-quantum.png";
 import pulseLogo from "@/assets/logo-pulse.png";
 import echoLogo from "@/assets/logo-echo.png";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const LogoTicker = () => {
   return (
@@ -37,11 +38,14 @@ export const LogoTicker = () => {
                 pulseLogo,
                 echoLogo,
               ].map((logo) => (
-                <img
+                <Image
                   src={logo.src}
                   key={logo.src}
-                  className="h-6 w-auto"
+                  className="h-6 w-auto" // Tailwind classes to adjust styling
                   alt=""
+                  layout="intrinsic" // Maintain the original aspect ratio
+                  width={logo.width} // Use the intrinsic width of your image
+                  height={logo.height} // Use the intrinsic height of your image
                 />
               ))}
             </motion.div>
