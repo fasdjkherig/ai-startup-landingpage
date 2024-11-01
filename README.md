@@ -46,6 +46,8 @@ Welcome to our AI-Powered SEO Landing Page project! This innovative web applicat
 
 👉 **Performance Optimization**: The landing page is built with performance in mind, ensuring fast load times and a seamless user experience.
 
+👉 **Figma to Code**: Efficiently transform Figma designs into pixel-perfect code, maintaining design fidelity while enabling faster development cycles and collaboration.
+
 ## <a name="quick-start">🚀 Quick Start</a>
 
 Follow these steps to set up the project locally on your machine.
